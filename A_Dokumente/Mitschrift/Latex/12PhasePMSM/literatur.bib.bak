@@ -1,0 +1,238 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Manual{AG2013,
+  Title                    = {Industrial IGBT Modules - Explanation of Technical Information Application Note AN 2011-05},
+
+  Address                  = {59568 Warstein, Germany},
+  Author                   = {Infineon Technologies AG},
+  Edition                  = {V1.1},
+  Month                    = {May},
+  Organization             = {Infineon Technologies AG},
+  Year                     = {2013},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.12}
+}
+
+@Article{Baker2011,
+  Title                    = {How delta-sigma ADCs work, Part 1},
+  Author                   = {Binnie Baker},
+  Journal                  = {Texas Instruments Analog Applications Journal},
+  Year                     = {2011},
+  Pages                    = {6},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Article{Baker2011a,
+  Title                    = {How delta-sigma ADCs work, Part 2},
+  Author                   = {Bonnier Baker},
+  Journal                  = {Texas Instruments Analog Applications Journal},
+  Year                     = {2011},
+  Pages                    = {5},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@MastersThesis{Bodensteiner2013,
+  Title                    = {Optimierung des Schaltverhaltens eines bestehenden 3-Level Wechselrichters im Hinblick auf die Steuerung und Regelung von Drehstrommaschinen},
+  Author                   = {Florian Bodensteiner},
+  School                   = {FErnUniversit\"at Hagen},
+  Year                     = {2013},
+
+  Owner                    = {Christian},
+  Timestamp                = {2014.09.23}
+}
+
+@Manual{CONCEPT2013,
+  Title                    = {Application with SCALE-2 Gate Driver Cores AN-1101},
+  Author                   = {CONCEPT},
+  Year                     = {2013},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Manual{CONCEPT2012,
+  Title                    = {2SC0108T2Dx-xx Description \& Application Manual},
+  Author                   = {CONCEPT},
+  Year                     = {2012},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Manual{CONCEPT2010,
+  Title                    = {IGBT and MOSFET Drivers Correctly Calculated AN-1001},
+  Author                   = {CONCEPT},
+  Year                     = {2010},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Manual{CONCEPT2008,
+  Title                    = {Design of driver cards with SCALE drivers AN-9901},
+  Author                   = {CONCEPT},
+  Year                     = {2008},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Article{Dietmayer2001,
+  Title                    = {Magnetische Sensor auf Basis des AMR-Effekts},
+  Author                   = {Klaus C.J. Dietmayer},
+  Journal                  = {Technische Messen 68 Oldenbourg Verlag},
+  Year                     = {2001},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Book{Franz2008,
+  Title                    = {EMV St\"orungssicherer Aufbau elektronischer Schaltungen},
+  Author                   = {Dr.-Ing. Joachim Franz},
+  Publisher                = {Vieweg und Teubner},
+  Year                     = {2008},
+  Edition                  = {3., erweiterte und \"uberarbeitete Auflage},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@MastersThesis{Guertler2012,
+  Title                    = {Verifizierung und Vergleich der Ansteuerung von Drei-Level-Wecheslrichtern},
+  Author                   = {Johannes G\"urtler},
+  School                   = {University of Applied Science Regensburg},
+  Year                     = {2012},
+
+  Owner                    = {Christian},
+  Timestamp                = {2014.09.23}
+}
+
+@Article{Klein,
+  Title                    = {EMV Filter f\"ur DCDC Schaltregler optimieren},
+  Author                   = {Stefan Klein},
+  Journal                  = {W\"urth Elektronik},
+
+  Owner                    = {Christian},
+  Timestamp                = {2014.09.20}
+}
+
+@Book{Mancini2002,
+  Title                    = {Op Amps For Everyone},
+  Author                   = {Ron Mancini},
+  Editor                   = {Ron Mancini},
+  Publisher                = {Texas Instruments},
+  Year                     = {2002},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.03.03}
+}
+
+@Book{Ott2009,
+  Title                    = {Electromagnetic Compatibility Engineering},
+  Author                   = {Henry W. Ott},
+  Publisher                = {WILEY},
+  Year                     = {2009},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Book{Papula2006,
+  Title                    = {Mathematische Formelsammlung für Ingenieure und Naturwissenschaftler},
+  Author                   = {Lothar Papula},
+  Publisher                = {Vieweg},
+  Year                     = {2006},
+  Edition                  = {9. Auflage},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Article{Pithadia2013,
+  Title                    = {Grounding in mixed-signal systems demystified, Part 1},
+  Author                   = {By Sanjay Pithadia and Shridhar More},
+  Journal                  = {Texas Instruments Analog Applications Journal},
+  Year                     = {2013},
+  Pages                    = {6},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Article{Pithadia2013a,
+  Title                    = {Grounding in mixed-signal systems demystified, Part 2},
+  Author                   = {By Sanjay Pithadia and Shridhar More},
+  Journal                  = {Texas Instruments Analog Applications Journal},
+  Year                     = {2013},
+  Pages                    = {6},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Article{Sclocchi,
+  Title                    = {Input Filter Design for Switching Power Supplies},
+  Author                   = {Michele Sclocchi},
+  Journal                  = {National Semiconductors Corporation},
+
+  Owner                    = {Christian},
+  Timestamp                = {2014.09.20}
+}
+
+@Article{Sensitec,
+  Title                    = {Integrated Current Sensor based on MagnetoResistive (MR) Technology},
+  Author                   = {Sensitec},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Manual{Sensitec2011,
+  Title                    = {CFS1000 Integrated MagnetoResistive Current Sensor Preliminary Data Sheet},
+  Author                   = {Sensitec},
+  Year                     = {2011},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Book{Specovius2011,
+  Title                    = {Grundkurs Leistungselektronik},
+  Author                   = {Joachim Specovius},
+  Publisher                = {Vieweg und Teubner},
+  Year                     = {2011},
+
+  Owner                    = {Christian},
+  Timestamp                = {2014.09.08}
+}
+
+@Book{Williams2005,
+  Title                    = {The Circuit Designer's Companion},
+  Author                   = {Tim Williams},
+  Publisher                = {Newnes},
+  Year                     = {2005},
+  Edition                  = {Second Edition},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+
+@Book{Zach2009,
+  Title                    = {Leistungselektronik},
+  Author                   = {Franz Zach},
+  Publisher                = {SpringerWienNewYork},
+  Year                     = {2009},
+  Edition                  = {4., vollst\"andig \"uberarbeitete und erweiterte Auflage},
+
+  Owner                    = {sic32875},
+  Timestamp                = {2014.08.11}
+}
+

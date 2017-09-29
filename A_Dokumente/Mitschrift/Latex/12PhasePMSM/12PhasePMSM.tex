@@ -1,0 +1,258 @@
+\documentclass[12pt,paper=a4,fleqn,headsepline,headings=normal,cleardoublepage=current,titlepage,twoside,bibliography=totoc,listof=totoc,numbers=noenddot,parskip=half]{scrbook}  % double sided document
+
+\usepackage{latexsym,amsfonts,amssymb,amsmath,ngerman}
+\usepackage{bibgerm} % german bibliography standards
+\usepackage[section]{placeins}
+\usepackage{pdfpages} 
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} % implementation of german umlaute
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{units}
+\usepackage[format=hang]{caption}
+\usepackage{morefloats}
+\usepackage{multirow}
+\usepackage{footnote} % Ermöglicht Fußnoten in gleitenden Umgebungen
+\usepackage{listings}
+%\usepackage[framed,numbered]{mcode}
+\usepackage[
+%plainpages=false,
+%pdfpagelabels,
+pdftex,
+colorlinks=true,
+linkcolor=blue,
+citecolor=blue,
+bookmarks=true,
+bookmarksopen=true,
+bookmarksopenlevel=2,
+pagebackref=false,
+bookmarksnumbered=true,
+pdfstartpage=1,
+pdfstartview=FitH,
+pdfpagemode=UseOutlines,
+]{hyperref}
+
+% Commands for figures:
+\DeclareGraphicsExtensions{.pdf,.jpg,.png} % Dateiendung für Grafiken bei Erstellung eines PDF-Dokuments
+\graphicspath{{figs/}} % Pfad für die Bilder
+\def\figurename{Abbildung }
+
+% Definition of type of thesis Arbeit, degree,
+% and cooperating company
+\newcommand{\abschluss}{Master}
+
+\newcommand{\studiengang}{Maschinenbau}
+
+\newcommand{\doctitle}{Aufbau einer 12-Phasen PMSM mit unabhängiger Phasenbestromung}
+
+\newcommand{\firma}{Privatprojekt}
+
+\newcommand{\firmenadresse}{Regensburg}
+
+%\newcommand{\betreuer}{Prof. Dr.-Ing. Michael Saller}
+
+\newcommand{\beginndatum}{01.06.2017}
+
+%\newcommand{\abgabedatum}{30.09.2014}
+
+%\newcommand{\bearbeiteranrede}{Herrn}
+
+\newcommand{\bearbeitername}{Florian Bodensteiner\\ Johannes Gürtler\\Christian Simon}
+
+%\newcommand{\matrikelnummer}{2746481}
+
+\hypersetup{
+pdftitle=\doctitle,
+pdfauthor=\bearbeitername,
+%pdfsubject=\studiengang,
+%Enter 5-7 keyword for your work/area of work:
+pdfkeywords={Multiphase, PMSM}
+}
+
+% -----------------------------------
+% --- Main document -----------------
+% ----|||||||||||||------------------
+% ----vvvvvvvvvvvvv------------------
+% -----------------------------------
+
+
+\begin{document}
+\thispagestyle{empty}
+\pagenumbering{Alph}
+\hypertarget{titelseite}{}
+\pdfbookmark[0]{Titelseite}{titelseite}
+
+
+\vspace*{1cm}
+
+\vfill
+
+{
+ \huge
+\begin{center}
+\textbf{\doctitle}
+\end{center}
+
+
+\vfill
+
+
+\vfill
+
+\begin{center}
+\bearbeitername \\
+\end{center}
+
+\vfill
+
+\begin{center}
+Email: simon.christian86@gmail.com\\
+\end{center}
+
+\vfill
+
+\begin{center}
+\begin{tabular}{ll}
+Beginn:& \beginndatum \\
+\end{tabular}
+\end{center}
+
+\vfill
+}
+\cleardoubleemptypage
+
+\cleardoubleemptypage
+
+% -----------------------------------
+% --- Erklärung ---------------------
+% ----|||||||||||||------------------
+% ----vvvvvvvvvvvvv------------------
+% -----------------------------------
+
+\thispagestyle{empty}
+\pagenumbering{roman}
+\setcounter{page}{3}
+\hypertarget{erklaerung}{}%
+\pdfbookmark[0]{Erklärung}{erklaerung}%
+
+\vfill
+
+\cleardoubleemptypage
+
+% -----------------------------------
+% --- Zusammenfassung und Abstract -
+% ----|||||||||||||------------------
+% ----vvvvvvvvvvvvv------------------
+% -----------------------------------
+
+\chapter*{Abstract}
+
+\vfill
+
+\vfill
+\cleardoubleemptypage
+
+% -----------------------------------
+% ---- Alle Verzeichnisse -----------
+% ----|||||||||||||------------------
+% ----vvvvvvvvvvvvv------------------
+% -----------------------------------
+
+\setcounter{tocdepth}{2}
+
+\hypertarget{Inhalt}{}%
+\pdfbookmark[0]{Inhalt}{Inhalt}%{\contentsname}
+\tableofcontents
+\listoffigures
+\listoftables
+
+% --- Indizierung ------------------
+
+%\addchap*{Indizierung und Symbole}
+
+%\section*{Indizierung}
+
+%\begin{longtable}{ll}
+%	$f_s$ & Schaltfrequenz\\
+%	$P_{DRV}$ & Treiberleistung\\
+%	$V_{ISOL}$ & Isolationsspannung\\
+%	$V_{DC}$ & Zwischenkreisspannung\\
+%	$V_{GE}$ & Gate-Emitter-Spannung\\
+%	$V_{CE}$ & Collector-Emitter-Spannung\\
+%	$V_{CES}$ & Collector-Emitter-Sättigungsspannung\\
+%	$V_{AC(eff)}$ & Isolationstestspannung Gatetreiber(50Hz/1s)\\
+%	$Q_G$ & Gateladung\\
+%	$I$ & Strom\\
+%	$U$ & Spannung\\
+%	$R_{ON}$ & Bahnwiderstand\\
+%	$R_{G}$ & Gatewiderstand\\
+%	$R_b$ & Blockingtime Widerstand\\
+%	$T_b$ & Blockingtime\\
+%	$h$ & Schrittweite\\
+%\end{longtable} 
+
+%\section*{Symbole}
+%
+%\begin{longtable}{ll}
+%	$x$& Skalar\\
+%\end{longtable}
+\cleardoublepage
+
+% --- Abkürzungen ------------------
+
+\addchap*{Abkürzungen}
+\begin{longtable}{ll}
+	PWM & Pulsweitenmodulation\\
+	MOSFET & MOS Field Effect Transistor\\
+	VCC & Versorgungsspannung\\
+	GND & Ground\\
+	EMV & Elektromagnetische Verträglichkeit\\
+	DSP & Digital Signal Processor\\
+	CAN & Controller Area Network\\
+	I/O & Input/Output\\
+	DC & Gleichstrom\\
+	AC & Wechselstrom\\
+	PCB & Printed Circuit Board\\
+	ESR & Equivalenter Serienwiderstand\\
+	LDO & Low Drop Out\\
+	GAIN & Verstärkung\\
+	ADC & Analog/Digital Converter\\
+	TVS & Transient Voltage Supressor (Diode)\\
+\end{longtable}
+
+\cleardoublepage
+
+% -----------------------------------
+% ---- Hauptteil --------------------
+% ----|||||||||||||------------------
+% ----vvvvvvvvvvvvv------------------
+% -----------------------------------
+
+\pagenumbering{arabic}
+\input{chapters/Gesamtsystem}
+\input{chapters/Mechanik}
+\input{chapters/Hardware}
+\input{chapters/Software}
+
+% ---- Ende des Hauptteils --------------------
+
+\bibliographystyle{gerplain}
+\bibliography{literatur}
+
+%%	Anhang
+%% ------------------------------------------------------------------------	
+\clearpage						% Neue Seite erstellen, Alle Tabellen 
+%%%%%%										% müssen vor dieser Seite eingefügt werden.
+\pagenumbering{Roman}		% Anhang wird mit römischen Seitenzahlen versehen%%%%	
+\appendix
+%\input{appendix/Datenblätter}
+\input{appendix/Schaltpläne}
+%\input{appendix/Konstruktionszeichnungen}
+%\input{appendix/Programmcode}
+	
+%========================================================================
+
+\end{document}
